@@ -5,10 +5,10 @@ import numpy as np
 from pathlib import Path
 from typing import Optional, Union, List
 
-from hloc import logger
-from hloc import pairs_from_retrieval
-from hloc.utils.parsers import parse_image_lists, parse_retrieval
-from hloc.utils.io import list_h5_names
+from ..hloc import logger
+from ..hloc import pairs_from_retrieval
+from ..hloc.utils.parsers import parse_image_lists, parse_retrieval
+from ..hloc.utils.io import list_h5_names
 
 
 def main(
